@@ -55,6 +55,12 @@
               ></v-text-field>
               <v-text-field
                 class="my-0 py-0"
+                label="Community Discord Link"
+                v-model="communityinfo.discordLink"
+                outlined
+              ></v-text-field>
+              <v-text-field
+                class="my-0 py-0"
                 label="Become A Member Link"
                 v-model="communityinfo.becomemember"
                 outlined
